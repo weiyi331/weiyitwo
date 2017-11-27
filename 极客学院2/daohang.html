@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="jiake.css">
+	<link rel="stylesheet" href="src/css/bootstrap.min.css">
+	<script type="text/javascript">
+		// $('.carousel').carousel({
+ 	// 		interval: 100;
+		// })		
+	</script>
+</head>
+<body>
+	<div class="ue-bar">
+		<div class="ue-bar-warp">
+			<div class="ue-bar-logo">
+				<a href="#">
+					<img src="./image/logo.png" width="100" alt="极客学院" title="极客学院">
+				</a>
+			</div>
+			<div class="ue-bar-nav">
+				<nav>
+					<li class="active">
+						<a href="#">
+							<em>首页</em>
+						</a></li>
+					<li><a href="#">
+							<em>职业
+							<i class="sild-icon"></i></em>
+						</a></li>
+					<li><a href="#">
+							<em>课程
+							<i class="sild-icon"></i></em>
+						</a></li>
+					<li><a href="#">
+							<em>企业
+							<i class="sild-icon"></i></em>
+						</a></li>
+					<li><a href="#">
+							<em>社区
+							<i class="sild-icon"></i></em>
+						</a></li>
+					<li><a href="#">
+							<em>会员</em>
+						</a></li>
+
+					<li>
+						<div class="search">
+							<input type="text" id="searchinput" placeholder="搜索课程、问答或Wiki">
+							<span id="search-bottom" class="seeach-icon"></span>
+						</div>
+					</li>
+					<li id="user">
+						<div class="login">
+							<ul><a href="#">登录</a></ul>
+							<ul><a href="#">注册</a></ul>
+						</div>
+					</li>								
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- 巨幕 -->
+
+	<!-- 左侧 nav -->
+	<div id="IEacto">
+	<div id="aside-clist">
+		<a href="#"><li><em>前端开发</em></li></a>
+		<a href="#"><li><em>移动开发</em></li></a>
+		<a href="#"><li><em>后端开发</em></li></a>
+		<a href="#"><li><em>人工智能</em></li></a>
+		<a href="#"><li><em>智能硬件/物联网</em></li></a>
+		<a href="#"><li><em>设计/产品/测试</em></li></a>
+		<a href="#"><li><em>云计算/大数据</em></li></a>
+		<a href="#"><li><em>技术支持</em></li></a>
+	</div>
+	<!-- 左侧 nav END -->
+
+	<!-- 右侧 nav -->
+	<div id="aside-subscription">
+		<h3>极客头条</h3>
+		<ul class="subscription-list">
+			<li>
+				<img src="image/bc5087ba-9bd9-422e-9084-39a492830d7e.png" alt="">
+				<p><a href="http://www.jikexueyuan.com/course/3650.html" target="_blank">让你的应用轻松集成语音/图像识别功能</a></p>
+			</li>
+			<li>
+				<img src="image/bc5087ba-9bd9-422e-9084-39a492830d7e.png" alt="">
+				<p><a href="http://www.jikexueyuan.com/zhiye/course/94.html?type=17" target="_blank">热门来袭：带你掌握Android线程间通信机制</a></p>
+			</li>
+			<li>
+				<img src="image/eaa52cd8-e1bf-4330-86fa-fa9c14c08443.png" alt="">
+				<p><a href="http://wiki.jikexueyuan.com/project/Glide/" target="_blank">Glide技术详解（内含示例代码）</a></p>
+			</li>
+			<li>
+				<img src="image/05edc34b-8c6f-4f04-87e1-c048f1bde6b7.png" alt="">
+				<p><a href="http://www.jikexueyuan.com/zhiye/bigdata?_comefrom=jikexueyuan&amp;_code_slot=5&amp;_creative=48" target="_blank">大数据平台研发工程师：一套对应企业需求的实战课</a></p>
+			</li>
+			<li>
+				<img src="image/bc5087ba-9bd9-422e-9084-39a492830d7e.png" alt="">
+				<p><a href="http://www.jikexueyuan.com/zhiye/course/110.html?type=18" target="_blank">这里有你想了解的网络请求框架</a></p>
+			</li>
+		</ul>
+		<form class="subscription-sub">
+			<div class="subscription-container">
+				<input type="text" placeholder="请输入您的邮箱地址">
+				<a href=""><em>订阅</em></a>
+			</div>
+		</form>
+	</div>
+
+	<!-- 右侧 nav END -->
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/main.jpg" alt="首页" style="width: 100%; height: 372px;">
+
+    </div>
+    <div class="item">
+      <img src="image/64c25f34-cf91-4baf-b5eb-b72158890a59.png" alt="首页" style="width: 1100px; height: 372px;">
+
+    </div>
+    <div class="item">
+      <img src="image/0521b7e3-110c-4f2b-92ca-97dbbc015f30.jpg" alt="首页" style="width: 1100px; height: 372px;">
+
+    </div>
+    <div class="item">
+      <img src="image/eb09671c-f390-4af2-8ed8-058e6937088c.jpg" alt="首页" style="width: 1100px; height: 372px;">
+
+    </div>
+ <!--    <div class="item">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ... -->
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+	<script type="text/javascript" src="src/js/jquery.js"></script>
+	<script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="src/js/carousel.js"></script>
+
+</div>
+
+<!-- 巨幕 END -->
+
+<!-- 极客广告位 -->
+
+<div id="minbanner">
+	<div class="guang">
+		<li class="ad-contain">
+			<a href="#"><img src="image/711d6e40-ba21-42b9-91e6-ac27dacc624b.jpg" width="327px"></a>
+		</li>
+	
+	<div class="gao">
+		<a href=""><img src="image/d8038ef2-34a0-4db1-a99f-6a33027d216c.jpg" alt=""></a>
+	</div>
+		<div class="gao">
+		<a href=""><img src="image/e5050d43-8ade-441d-831c-b0b39f5bac73.jpg" alt=""></a>
+	</div>
+
+	</div>
+</div>
+
+<!-- 极客广告位 END -->
+
+<!-- 极客职业介绍 -->
+<div id="zhiye">
+	<div class="fang">
+	<h2>职业方向</h2>
+	</div>
+	<a href="">更多职业方向>></a>
+</div>
+<div class="xiang">
+	<li>
+	<img src="image/4cdffb64-3d45-49f3-84c3-60f2349a25c2.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/5e981faa-abed-4974-a127-d616c8076328.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/6a6c62c4-a823-44f8-942c-0a0e0e256b17.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/41f60ad5-db13-416e-ad37-08495dbc0377.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/6227c34f-5efd-4df2-911d-91654cb0691c.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/8950bb99-3b4e-4e1e-a0d4-ffbf04590c15.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/914408a9-afc8-4aaf-8ff3-f7a2497bfeba.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/f1f87ca2-3d23-4220-8043-52394a190b89.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/9ef6a548-9702-4c5b-96a2-a04995dd738e.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+
+	<li>
+	<img src="image/ad309043-9e84-4535-b85e-7b52ac4e3b2b.png" alt="">
+	<h3>Android工程师</h3>
+	</li>
+</div>
+<!-- 极客职业介绍 END -->
+
+<!-- 极客学院首页底部 -->
+
+<div class="enterprise">
+        <div class="enterprise-nav">
+            <h3>合作企业</h3>
+        </div>
+        <div class="enterprise-items">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/microsoft.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/amazon.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/tencent.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/qualcomm.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/tuling.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/kedaxunfei.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/chukongkeji.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/bootstrap.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/amd.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/juheshuju.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/qingyun.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/bugly.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/zhidahao.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/tetin.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="contact-way">
+                <a class="weixin-icon" href="#" target="_blank"></a>
+                <a class="sina-icon" href="#" target="_blank"></a>
+                <a class="facebook-icon" href="#" target="_blank"></a>
+                <a class="google-icon" href="#" target="_blank"></a>
+            </div>
+            <nav>
+                <a href="#" target="_blank">关于我们</a>
+                <i>|</i>
+                <a href="#" target="_blank">加入我们</a>
+                <i>|</i>
+                <a href="#" target="_blank">联系我们</a>
+                <i>|</i>
+                <a href="#" target="_blank">讲师合作</a>
+                <i>|</i>
+                <a href="#" target="_blank">帮助中心</a>
+                <i>|</i>
+                <a href="#" target="_blank">黑板报</a>
+                <i>|</i>
+                <a href="#" target="_blank">友情链接</a>
+                <i>|</i>
+                <a href="#" target="_blank">意见反馈</a>
+            </nav>
+            <div class="copyright">
+                Copyright © 2013-2016 jikexueyuan.com All Rights Reserved. 京ICP备11018032号 京公网安备11010802013056
+            </div>
+            <a class="szfw_logo" target="_blank">
+                <img src="images/cert.png" target="_blank" width="60px" border="0">
+            </a>
+        </div>
+    </div>
+<!-- 极客学院首页底部 END -->
+
+
+</body>
+</html>
